@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Link](https://github.com/Vanglepu/Stats-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Here](https://vanglepu.github.io/Stats-preview-card-component)
 
 ## My process
 
