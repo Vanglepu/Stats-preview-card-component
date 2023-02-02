@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap');
+
+:root{
+    --darkpurple: #0A0C1B;
+    --purple: #1C1938;
+    --lightpurple: #A45CD5;
+    --white: #fff;
+} 
+
+h1{
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    color: var(--white);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: var(--darkpurple);
+    align-items: center;
+}
+
+section{
+    padding: 7em 0;
+}
+
+.container{
+    margin: auto;
+    /* padding-bottom: 2.5em; */
+    background-color: var(--purple);
+    width: 17em;
+    height: 44em;
+    border-radius:  8px 8px 8px 8px;
+}
+
+@media screen and (min-width: 1440px) {
+    .container{
+        display: flex;
+        width: 85em;
+        height: 25.5em;
+    }
+}
+
+
+.image{
+    width: 100%;
+    background-color: var(--lightpurple);
+    background-image: url(images/image-header-mobile.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply; 
+    background-size: 100%;
+    order: 1;
+    border-radius:  8px 8px 0 0;
+    height: 12.5em;
+
+}
+
+@media screen and (min-width: 1440px){
+    .image{
+        width: 100%;
+        background-image: url(images/image-header-desktop.jpg);
+        border-radius:  0 8px 8px 0;
+        height: 25.5em;
+    }
+}
+
+.text span{
+    color: var(--lightpurple);
+}
+
+.text h1{
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.text p{
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    line-height: 1.5em;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+@media screen and (min-width: 1440px) {
+    .text{
+        margin-top: 1.5em;
+        margin-left: 5em;
+        margin-right: 10em;
+        
+    }
+
+    .text h1{
+        font-size: 2.5em;
+        text-align: left;
+    }
+
+    .text p{
+        line-height: 1.5em;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+}
+
+.number{
+    display: flex;
+    margin-bottom: 2.5em;
+    /* justify-content: center; */
+}
+
+.number h1{
+    font-size: 1.5em;
+}
+
+.number1{
+    margin-left: 5em;
+}
+
+.number2{
+    margin-top: 5em;
+    margin-left: -7.7em;
+}
+
+.number3{
+    margin-top: 10em;
+    margin-left: -6.9em;
+
+}
+
+
+@media screen and (min-width: 1440px) {
+    .number{
+        display: flex;
+        margin-bottom: 2.5em;
+        justify-content: center;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+        margin-left: -4em;
+    }
+
+    .number h1{
+        font-size: 1.6rem;
+    }
+
+    .number p{
+        font-size: 1rem;
+    }
+
+    .number1{
+        margin: 0;
+    }
+
+    .number2{
+        margin: 0;
+    }
+
+    .number3{
+        margin: 0;
+    }
+}
+
+/* footer */
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+    color: var(--white);
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%); }
